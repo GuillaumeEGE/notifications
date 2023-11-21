@@ -31,7 +31,7 @@ Une cloud fonction`copyFCMtoken`va récupérer ces jetons à chaque création et
     - Utilisation de la cloudfunction`sendPushNotification()`.
         - Obligatoire : notification_text,notification_title, userRef
         - Facultatif : notificationImageUrl, initialPageName, parameterData,parameterName
-        - 
+    
 ![notif](https://github.com/GuillaumeEGE/notifications/assets/151170125/bbebe423-397a-4285-9a02-656f698f3dc8)
 
     
