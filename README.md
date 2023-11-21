@@ -1,4 +1,4 @@
-# Notifications
+![notif](https://github.com/GuillaumeEGE/notifications/assets/151170125/490ba340-1130-45e8-836b-a072f18955e7)# Notifications
 
 ### Principe de base :
 
@@ -31,9 +31,9 @@ Une cloud fonction`copyFCMtoken`va récupérer ces jetons à chaque création et
 - Envoi de Push-Notification
     - Utilisation de la cloudfunction`sendPushNotification()`.
         - Obligatoire : notification_text,notification_title, userRef
-        - Facultatif : notificationImageUrl, initialPageName, parameterData,parameterName
-    
-    ![notif.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/33bb5366-4a24-4fc5-a749-cabdb67b1c99/e8c1731c-95ea-4127-bdcb-abebc30bbed5/notif.png)
+        - Facultatif : notificationImageUrl, initialPageName, parameterData,parameterName*
+
+    ![notif](https://github.com/GuillaumeEGE/notifications/assets/151170125/007df6a7-1b26-43f4-984c-d8b0cd935aa2)
     
 - Visualiser la notification dans l’application :
     - Stocker la notification avec les champ utiles dans la base de données (collection notification ou sous collection de user notification).
