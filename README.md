@@ -30,9 +30,10 @@ Une cloud fonction`copyFCMtoken`va récupérer ces jetons à chaque création et
 - Envoi de Push-Notification
     - Utilisation de la cloudfunction`sendPushNotification()`.
         - Obligatoire : notification_text,notification_title, userRef
-        - Facultatif : notificationImageUrl, initialPageName, parameterData,parameterName*
+        - Facultatif : notificationImageUrl, initialPageName, parameterData,parameterName
+        - 
+![notif](https://github.com/GuillaumeEGE/notifications/assets/151170125/bbebe423-397a-4285-9a02-656f698f3dc8)
 
-    ![notif](https://github.com/GuillaumeEGE/notifications/assets/151170125/007df6a7-1b26-43f4-984c-d8b0cd935aa2)
     
 - Visualiser la notification dans l’application :
     - Stocker la notification avec les champ utiles dans la base de données (collection notification ou sous collection de user notification).
