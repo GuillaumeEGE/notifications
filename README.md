@@ -1,5 +1,4 @@
-![notif](https://github.com/GuillaumeEGE/notifications/assets/151170125/490ba340-1130-45e8-836b-a072f18955e7)# Notifications
-
+# Notifications
 ### Principe de base :
 
 - Pour envoyer des notifications à un utilisateur, on a besoin d’un jeton FCM généré par Firebase (1 jeton par utilisateur par appareil) .
